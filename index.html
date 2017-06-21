@@ -49,7 +49,6 @@
                     var region_name = unique_regions[r];
                     var region_data = data.filter(function(d) { return d.region == region_name; });
                     var region_short_name = region_data[0].region_short_name;
-                    console.log(region_short_name);
                     var region_pop = d3.sum(region_data, function(d) { return d.pop; });
                     var region_height = Math.max(100, Math.ceil(region_pop / width_per_region));
                     unique_regions[r] = { name: region_name, short_name: region_short_name, total_pop: region_pop, height: region_height };
@@ -81,7 +80,6 @@
                 for (var r = 0; r < num_regions; r++) {
                     // Add region title
                     var region_text = "";
-                    console.log(width_per_region);
                     if (width_per_region < 60) {
                         region_text = unique_regions[r].short_name;
                     } else {
