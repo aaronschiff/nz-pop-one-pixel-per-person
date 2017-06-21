@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+		<title>NZ: One pixel per person</title>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+	</head>
+	<body>
+        <div id = "header-wrapper">
+            <div id = "header">
+                <h1>New Zealand&rsquo;s population: One pixel per person</h1>
+                <p>Each of the 4.24 million residents of New Zealand in the 2013 Census is represented by one pixel. Blue pixels are people of European ethnicity. Orange pixels are people of all other ethnicities, including people identifying with multiple ethnic groups.</p>
+            </div>
+        </div>
+        <div id = "vis">
+            <div id = "region-titles"></div>
+            <div id = "vis-canvas"></div>
+        </div>
+
+        <script>
+            // Setup
+            var european_colour = "blue";
+            var non_european_colour = "orange";
+            var pixel_ratio = window.devicePixelRatio;
+
+            d3.csv("data/nz-pop-by-region-ethnicity.csv", function(d) {
+                return {
+                    region: d.region,
+                    region_short_name: d.region_short_name,
+                    ethnicity: d.ethnicity,
+                    pop: +d.pop
+                };
+            }, function(data){
+                // Find lists of unique regions and ethnicities, and calculate width for each region
+                var unique_regions = data.map(function(d) { return d.region; }).filter((v, i, a) => a.indexOf(v) === i);
+                var num_regions = unique_regions.length;
+                var width_per_region = Math.floor(d3.select("#vis-canvas").node().clientWidth / num_regions);
+                var unique_ethnicities = data.map(function(d) { return d.ethnicity; }).filter((v, i, a) => a.indexOf(v) === i);
+                var num_ethnicities = unique_ethnicities.length;
+
+                // Overall width
+                var vis_width = width_per_region * num_regions;
+
+                // Calculate total population for each region and add to unique_regions, and calculate heights
+                for (var r = 0; r < num_regions; r++) {
+                    var region_name = unique_regions[r];
+                    var region_data = data.filter(function(d) { return d.region == region_name; });
+                    var region_short_name = region_data[0].region_short_name;
+                    console.log(region_short_name);
+                    var region_pop = d3.sum(region_data, function(d) { return d.pop; });
+                    var region_height = Math.max(100, Math.ceil(region_pop / width_per_region));
+                    unique_regions[r] = { name: region_name, short_name: region_short_name, total_pop: region_pop, height: region_height };
+                }
+                var vis_height = d3.max(unique_regions, function(d) { return d.height; });
+
+                // Create ordinal colour scale for ethnicities, defining "European" as black
+                var ethnicity_colour_scale = d3.scaleOrdinal()
+                .domain(unique_ethnicities)
+                .range(unique_ethnicities.map(function (d) {
+                    if (d == "European") { return european_colour; }
+                    else { return non_european_colour; }
+                }));
+
+                // Make replicated ethnicity array for each region and randomise its order
+                ethnicities = [];
+                for (var r = 0; r < num_regions; r++) {
+                    var region_name = unique_regions[r].name;
+                    var region_data = data.filter(function(d) { return d.region == region_name; });
+                    var region_ethnicities = region_data.map(function(d) {
+                        return new Array(d.pop).fill(d.ethnicity);
+                    })
+                    region_ethnicities = d3.merge(region_ethnicities);
+                    d3.shuffle(region_ethnicities);
+                    ethnicities.push({region: region_name, people: region_ethnicities});
+                }
+
+                // Create visualisation for each region
+                for (var r = 0; r < num_regions; r++) {
+                    // Add region title
+                    var region_text = "";
+                    console.log(width_per_region);
+                    if (width_per_region < 60) {
+                        region_text = unique_regions[r].short_name;
+                    } else {
+                        region_text = unique_regions[r].name;
+                    }
+                    var title_div = d3.select("#region-titles").append("div")
+                    .attr("class", "region-title")
+                    .style("width", (width_per_region) + "px")
+                    .text(region_text);
+
+                    // Create region canvas and context
+                    var region_canvas_div = d3.select("#vis-canvas").append("div")
+                    .attr("class", "region-canvas")
+                    .style("width", (width_per_region) + "px")
+                    .style("height", Math.ceil(unique_regions[r].height / (pixel_ratio * pixel_ratio)) + "px");
+                    var canvas_style_height = Math.ceil(unique_regions[r].height / (pixel_ratio * pixel_ratio));
+                    var canvas = region_canvas_div.append("canvas")
+                    .attr("id", "canvas")
+                    .attr("width", width_per_region * pixel_ratio)
+                    .attr("height", canvas_style_height * pixel_ratio)
+                    .style("width", width_per_region + "px")
+                    .style("height", canvas_style_height + "px");
+                    var ctx = canvas.node().getContext("2d");
+                    ctx.mozImageSmoothingEnabled = ctx.webkitImageSmoothingEnabled = ctx.imageSmoothingEnabled = false;
+                    ctx.scale(pixel_ratio, pixel_ratio);
+
+                    // Draw a rect for each person
+                    var n = 0;
+                    for (var j = 0; j < unique_regions[r].height / (pixel_ratio * pixel_ratio); j = j + 1/pixel_ratio) {
+                        for (var i = 0; i < width_per_region; i = i + 1/pixel_ratio) {
+                            if (n < unique_regions[r].total_pop) {
+                                ctx.fillStyle = ethnicity_colour_scale(ethnicities[r].people[n]);
+                                ctx.fillRect(i, j, 1/pixel_ratio, 1/pixel_ratio);
+                                n++;
+                            }
+                        }
+                    }
+                }
+
+                ctx.fillStyle = european_colour;
+                ctx.fillRect(0, 0, 0.5, 0.5);
+
+                // Put vis divs in the right place
+                d3.select("#vis").style("padding-top",
+                    d3.select("#header").node().getBoundingClientRect().height + "px");
+                d3.select("#vis-canvas").style("padding-top",
+                    d3.select("#region-titles").node().getBoundingClientRect().height + "px");
+            });
+        </script>
+	</body>
+</html>

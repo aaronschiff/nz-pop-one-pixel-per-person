@@ -1,0 +1,521 @@
+region,ethnicity,pop,region_short_name
+Northland,Asian,3093,NTL
+Northland,Asian/European/Other Ethnicity,6,NTL
+Northland,Asian/MELAA,3,NTL
+Northland,Asian/Other Ethnicity,9,NTL
+Northland,Asian/Pacific Peoples/Other Ethnicity,3,NTL
+Northland,European,85398,NTL
+Northland,European/Asian,300,NTL
+Northland,European/Maori,16788,NTL
+Northland,European/Maori/Asian,204,NTL
+Northland,European/Maori/MELAA,54,NTL
+Northland,European/Maori/Other Ethnicity,72,NTL
+Northland,European/Maori/Pacific Peoples,1062,NTL
+Northland,European/MELAA,84,NTL
+Northland,European/MELAA/Other Ethnicity,3,NTL
+Northland,European/Other Ethnicity,159,NTL
+Northland,European/Pacific Peoples,816,NTL
+Northland,Five ethnic groups,12,NTL
+Northland,Four ethnic groups,69,NTL
+Northland,Maori,25368,NTL
+Northland,Maori/Asian,117,NTL
+Northland,Maori/Asian/MELAA,6,NTL
+Northland,Maori/MELAA,27,NTL
+Northland,Maori/Other Ethnicity,33,NTL
+Northland,Maori/Pacific Peoples,1092,NTL
+Northland,Maori/Pacific Peoples/Asian,30,NTL
+Northland,Maori/Pacific Peoples/MELAA,6,NTL
+Northland,MELAA,351,NTL
+Northland,Not Elsewhere Included,12855,NTL
+Northland,Other,2241,NTL
+Northland,Pacific Peoples,1320,NTL
+Northland,Pacific Peoples/Asian,30,NTL
+Northland,Pacific Peoples/European/Asian,36,NTL
+Northland,Pacific Peoples/Maori/Other Ethnicity,3,NTL
+Auckland,Asian,287649,AUK
+Auckland,Asian/European/Other Ethnicity,72,AUK
+Auckland,Asian/MELAA,303,AUK
+Auckland,Asian/MELAA/European,57,AUK
+Auckland,Asian/Other Ethnicity,720,AUK
+Auckland,Asian/Pacific Peoples/MELAA,15,AUK
+Auckland,Asian/Pacific Peoples/Other Ethnicity,9,AUK
+Auckland,European,681747,AUK
+Auckland,European/Asian,9297,AUK
+Auckland,European/Maori,59454,AUK
+Auckland,European/Maori/Asian,1842,AUK
+Auckland,European/Maori/MELAA,318,AUK
+Auckland,European/Maori/Other Ethnicity,216,AUK
+Auckland,European/Maori/Pacific Peoples,10446,AUK
+Auckland,European/MELAA,1848,AUK
+Auckland,European/MELAA/Other Ethnicity,15,AUK
+Auckland,European/Other Ethnicity,1290,AUK
+Auckland,European/Pacific Peoples,20325,AUK
+Auckland,Five ethnic groups,27,AUK
+Auckland,Four ethnic groups,957,AUK
+Auckland,Maori,55722,AUK
+Auckland,Maori/Asian,1068,AUK
+Auckland,Maori/Asian/MELAA,6,AUK
+Auckland,Maori/Asian/Other Ethnicity,3,AUK
+Auckland,Maori/MELAA,144,AUK
+Auckland,Maori/MELAA/Other Ethnicity,3,AUK
+Auckland,Maori/Other Ethnicity,129,AUK
+Auckland,Maori/Pacific Peoples,11865,AUK
+Auckland,Maori/Pacific Peoples/Asian,501,AUK
+Auckland,Maori/Pacific Peoples/MELAA,36,AUK
+Auckland,MELAA,21666,AUK
+Auckland,MELAA/Other Ethnicity,114,AUK
+Auckland,Not Elsewhere Included,84120,AUK
+Auckland,Other,12732,AUK
+Auckland,Pacific Peoples,145428,AUK
+Auckland,Pacific Peoples/Asian,3567,AUK
+Auckland,Pacific Peoples/European/Asian,1197,AUK
+Auckland,Pacific Peoples/European/MELAA,111,AUK
+Auckland,Pacific Peoples/European/Other Ethnicity,66,AUK
+Auckland,Pacific Peoples/Maori/Other Ethnicity,15,AUK
+Auckland,Pacific Peoples/MELAA,198,AUK
+Auckland,Pacific Peoples/MELAA/Other Ethnicity,3,AUK
+Auckland,Pacific Peoples/Other Ethnicity,189,AUK
+Waikato,Asian,23439,WKI
+Waikato,Asian/European/Other Ethnicity,12,WKI
+Waikato,Asian/MELAA,12,WKI
+Waikato,Asian/MELAA/European,3,WKI
+Waikato,Asian/Other Ethnicity,90,WKI
+Waikato,Asian/Pacific Peoples/Other Ethnicity,3,WKI
+Waikato,European,254415,WKI
+Waikato,European/Asian,1470,WKI
+Waikato,European/Maori,33411,WKI
+Waikato,European/Maori/Asian,531,WKI
+Waikato,European/Maori/MELAA,111,WKI
+Waikato,European/Maori/Other Ethnicity,159,WKI
+Waikato,European/Maori/Pacific Peoples,2457,WKI
+Waikato,European/MELAA,306,WKI
+Waikato,European/MELAA/Other Ethnicity,6,WKI
+Waikato,European/Other Ethnicity,540,WKI
+Waikato,European/Pacific Peoples,2379,WKI
+Waikato,Five ethnic groups,12,WKI
+Waikato,Four ethnic groups,168,WKI
+Waikato,Maori,44154,WKI
+Waikato,Maori/Asian,306,WKI
+Waikato,Maori/Asian/MELAA,3,WKI
+Waikato,Maori/MELAA,33,WKI
+Waikato,Maori/Other Ethnicity,30,WKI
+Waikato,Maori/Pacific Peoples,2298,WKI
+Waikato,Maori/Pacific Peoples/Asian,54,WKI
+Waikato,MELAA,3009,WKI
+Waikato,MELAA/Other Ethnicity,24,WKI
+Waikato,Not Elsewhere Included,21090,WKI
+Waikato,Other,5715,WKI
+Waikato,Pacific Peoples,7026,WKI
+Waikato,Pacific Peoples/Asian,183,WKI
+Waikato,Pacific Peoples/European/Asian,87,WKI
+Waikato,Pacific Peoples/European/MELAA,3,WKI
+Waikato,Pacific Peoples/European/Other Ethnicity,18,WKI
+Waikato,Pacific Peoples/MELAA,3,WKI
+Waikato,Pacific Peoples/Other Ethnicity,33,WKI
+Bay of Plenty,Asian,11244,BOP
+Bay of Plenty,Asian/European/Other Ethnicity,12,BOP
+Bay of Plenty,Asian/MELAA,6,BOP
+Bay of Plenty,Asian/MELAA/European,3,BOP
+Bay of Plenty,Asian/Other Ethnicity,30,BOP
+Bay of Plenty,European,159852,BOP
+Bay of Plenty,European/Asian,720,BOP
+Bay of Plenty,European/Maori,24999,BOP
+Bay of Plenty,European/Maori/Asian,423,BOP
+Bay of Plenty,European/Maori/MELAA,63,BOP
+Bay of Plenty,European/Maori/Other Ethnicity,126,BOP
+Bay of Plenty,European/Maori/Pacific Peoples,1455,BOP
+Bay of Plenty,European/MELAA,159,BOP
+Bay of Plenty,European/MELAA/Other Ethnicity,12,BOP
+Bay of Plenty,European/Other Ethnicity,309,BOP
+Bay of Plenty,European/Pacific Peoples,1287,BOP
+Bay of Plenty,Four ethnic groups,117,BOP
+Bay of Plenty,Maori,39714,BOP
+Bay of Plenty,Maori/Asian,285,BOP
+Bay of Plenty,Maori/Asian/MELAA,3,BOP
+Bay of Plenty,Maori/MELAA,27,BOP
+Bay of Plenty,Maori/Other Ethnicity,75,BOP
+Bay of Plenty,Maori/Pacific Peoples,1587,BOP
+Bay of Plenty,Maori/Pacific Peoples/Asian,42,BOP
+Bay of Plenty,Maori/Pacific Peoples/MELAA,6,BOP
+Bay of Plenty,MELAA,948,BOP
+Bay of Plenty,MELAA/Other Ethnicity,9,BOP
+Bay of Plenty,Not Elsewhere Included,17163,BOP
+Bay of Plenty,Other,3825,BOP
+Bay of Plenty,Pacific Peoples,3123,BOP
+Bay of Plenty,Pacific Peoples/Asian,54,BOP
+Bay of Plenty,Pacific Peoples/European/Asian,36,BOP
+Bay of Plenty,Pacific Peoples/European/MELAA,9,BOP
+Bay of Plenty,Pacific Peoples/Maori/Other Ethnicity,6,BOP
+Bay of Plenty,Pacific Peoples/Other Ethnicity,3,BOP
+Gisborne,Asian,702,GIS
+Gisborne,Asian/European/Other Ethnicity,3,GIS
+Gisborne,Asian/MELAA/European,3,GIS
+Gisborne,European,18309,GIS
+Gisborne,European/Asian,84,GIS
+Gisborne,European/Maori,5466,GIS
+Gisborne,European/Maori/Asian,75,GIS
+Gisborne,European/Maori/MELAA,12,GIS
+Gisborne,European/Maori/Other Ethnicity,30,GIS
+Gisborne,European/Maori/Pacific Peoples,285,GIS
+Gisborne,European/MELAA,24,GIS
+Gisborne,European/Other Ethnicity,33,GIS
+Gisborne,European/Pacific Peoples,135,GIS
+Gisborne,Five ethnic groups,6,GIS
+Gisborne,Four ethnic groups,30,GIS
+Gisborne,Maori,13263,GIS
+Gisborne,Maori/Asian,57,GIS
+Gisborne,Maori/MELAA,15,GIS
+Gisborne,Maori/Other Ethnicity,6,GIS
+Gisborne,Maori/Pacific Peoples,411,GIS
+Gisborne,Maori/Pacific Peoples/Asian,9,GIS
+Gisborne,MELAA,96,GIS
+Gisborne,MELAA/Other Ethnicity,3,GIS
+Gisborne,Not Elsewhere Included,3372,GIS
+Gisborne,Other,516,GIS
+Gisborne,Pacific Peoples,666,GIS
+Gisborne,Pacific Peoples/Asian,3,GIS
+Gisborne,Pacific Peoples/European/Other Ethnicity,3,GIS
+Hawke's Bay,Asian,4224,HKB
+Hawke's Bay,Asian/European/Other Ethnicity,3,HKB
+Hawke's Bay,Asian/MELAA,6,HKB
+Hawke's Bay,Asian/MELAA/European,3,HKB
+Hawke's Bay,Asian/Other Ethnicity,15,HKB
+Hawke's Bay,European,95775,HKB
+Hawke's Bay,European/Asian,405,HKB
+Hawke's Bay,European/Maori,12480,HKB
+Hawke's Bay,European/Maori/Asian,204,HKB
+Hawke's Bay,European/Maori/MELAA,39,HKB
+Hawke's Bay,European/Maori/Other Ethnicity,69,HKB
+Hawke's Bay,European/Maori/Pacific Peoples,825,HKB
+Hawke's Bay,European/MELAA,90,HKB
+Hawke's Bay,European/Other Ethnicity,198,HKB
+Hawke's Bay,European/Pacific Peoples,741,HKB
+Hawke's Bay,Four ethnic groups,30,HKB
+Hawke's Bay,Maori,19971,HKB
+Hawke's Bay,Maori/Asian,120,HKB
+Hawke's Bay,Maori/MELAA,21,HKB
+Hawke's Bay,Maori/Other Ethnicity,48,HKB
+Hawke's Bay,Maori/Pacific Peoples,828,HKB
+Hawke's Bay,Maori/Pacific Peoples/Asian,15,HKB
+Hawke's Bay,MELAA,483,HKB
+Hawke's Bay,MELAA/Other Ethnicity,9,HKB
+Hawke's Bay,Not Elsewhere Included,8322,HKB
+Hawke's Bay,Other,2409,HKB
+Hawke's Bay,Pacific Peoples,3726,HKB
+Hawke's Bay,Pacific Peoples/Asian,45,HKB
+Hawke's Bay,Pacific Peoples/European/Asian,39,HKB
+Hawke's Bay,Pacific Peoples/European/MELAA,6,HKB
+Hawke's Bay,Pacific Peoples/European/Other Ethnicity,3,HKB
+Hawke's Bay,Pacific Peoples/Other Ethnicity,9,HKB
+Taranaki,Asian,3069,TKI
+Taranaki,Asian/European/Other Ethnicity,6,TKI
+Taranaki,Asian/MELAA,3,TKI
+Taranaki,Asian/MELAA/European,6,TKI
+Taranaki,Asian/Other Ethnicity,30,TKI
+Taranaki,European,79200,TKI
+Taranaki,European/Asian,255,TKI
+Taranaki,European/Maori,9114,TKI
+Taranaki,European/Maori/Asian,102,TKI
+Taranaki,European/Maori/MELAA,12,TKI
+Taranaki,European/Maori/Other Ethnicity,66,TKI
+Taranaki,European/Maori/Pacific Peoples,387,TKI
+Taranaki,European/MELAA,84,TKI
+Taranaki,European/Other Ethnicity,171,TKI
+Taranaki,European/Pacific Peoples,336,TKI
+Taranaki,Five ethnic groups,6,TKI
+Taranaki,Four ethnic groups,24,TKI
+Taranaki,Maori,8148,TKI
+Taranaki,Maori/Asian,30,TKI
+Taranaki,Maori/MELAA,9,TKI
+Taranaki,Maori/Other Ethnicity,33,TKI
+Taranaki,Maori/Pacific Peoples,222,TKI
+Taranaki,Maori/Pacific Peoples/Asian,12,TKI
+Taranaki,MELAA,327,TKI
+Taranaki,MELAA/Other Ethnicity,9,TKI
+Taranaki,Not Elsewhere Included,5454,TKI
+Taranaki,Other,1755,TKI
+Taranaki,Pacific Peoples,684,TKI
+Taranaki,Pacific Peoples/Asian,24,TKI
+Taranaki,Pacific Peoples/European/Asian,12,TKI
+Taranaki,Pacific Peoples/Maori/Other Ethnicity,6,TKI
+Taranaki,Pacific Peoples/Other Ethnicity,6,TKI
+Manawatu-Wanganui,Asian,9249,MWT
+Manawatu-Wanganui,Asian/European/Other Ethnicity,9,MWT
+Manawatu-Wanganui,Asian/MELAA,3,MWT
+Manawatu-Wanganui,Asian/MELAA/European,12,MWT
+Manawatu-Wanganui,Asian/Other Ethnicity,48,MWT
+Manawatu-Wanganui,European,147306,MWT
+Manawatu-Wanganui,European/Asian,825,MWT
+Manawatu-Wanganui,European/Maori,20073,MWT
+Manawatu-Wanganui,European/Maori/Asian,384,MWT
+Manawatu-Wanganui,European/Maori/MELAA,48,MWT
+Manawatu-Wanganui,European/Maori/Other Ethnicity,84,MWT
+Manawatu-Wanganui,European/Maori/Pacific Peoples,1200,MWT
+Manawatu-Wanganui,European/MELAA,210,MWT
+Manawatu-Wanganui,European/MELAA/Other Ethnicity,9,MWT
+Manawatu-Wanganui,European/Other Ethnicity,402,MWT
+Manawatu-Wanganui,European/Pacific Peoples,1383,MWT
+Manawatu-Wanganui,Four ethnic groups,69,MWT
+Manawatu-Wanganui,Maori,20679,MWT
+Manawatu-Wanganui,Maori/Asian,129,MWT
+Manawatu-Wanganui,Maori/MELAA,3,MWT
+Manawatu-Wanganui,Maori/Other Ethnicity,48,MWT
+Manawatu-Wanganui,Maori/Pacific Peoples,840,MWT
+Manawatu-Wanganui,Maori/Pacific Peoples/Asian,9,MWT
+Manawatu-Wanganui,Maori/Pacific Peoples/MELAA,6,MWT
+Manawatu-Wanganui,MELAA,990,MWT
+Manawatu-Wanganui,MELAA/Other Ethnicity,9,MWT
+Manawatu-Wanganui,Not Elsewhere Included,11040,MWT
+Manawatu-Wanganui,Other,3759,MWT
+Manawatu-Wanganui,Pacific Peoples,3648,MWT
+Manawatu-Wanganui,Pacific Peoples/Asian,57,MWT
+Manawatu-Wanganui,Pacific Peoples/European/Asian,75,MWT
+Manawatu-Wanganui,Pacific Peoples/European/MELAA,9,MWT
+Manawatu-Wanganui,Pacific Peoples/European/Other Ethnicity,3,MWT
+Manawatu-Wanganui,Pacific Peoples/Maori/Other Ethnicity,3,MWT
+Manawatu-Wanganui,Pacific Peoples/MELAA,18,MWT
+Manawatu-Wanganui,Pacific Peoples/Other Ethnicity,27,MWT
+Wellington,Asian,41280,WGN
+Wellington,Asian/European/Other Ethnicity,39,WGN
+Wellington,Asian/MELAA,30,WGN
+Wellington,Asian/MELAA/European,18,WGN
+Wellington,Asian/MELAA/Other Ethnicity,3,WGN
+Wellington,Asian/Other Ethnicity,303,WGN
+Wellington,Asian/Pacific Peoples/MELAA,3,WGN
+Wellington,Asian/Pacific Peoples/Other Ethnicity,9,WGN
+Wellington,European,301410,WGN
+Wellington,European/Asian,3558,WGN
+Wellington,European/Maori,28302,WGN
+Wellington,European/Maori/Asian,579,WGN
+Wellington,European/Maori/MELAA,123,WGN
+Wellington,European/Maori/Other Ethnicity,138,WGN
+Wellington,European/Maori/Pacific Peoples,3165,WGN
+Wellington,European/MELAA,765,WGN
+Wellington,European/MELAA/Other Ethnicity,3,WGN
+Wellington,European/Other Ethnicity,723,WGN
+Wellington,European/Pacific Peoples,5784,WGN
+Wellington,Five ethnic groups,3,WGN
+Wellington,Four ethnic groups,219,WGN
+Wellington,Maori,22602,WGN
+Wellington,Maori/Asian,285,WGN
+Wellington,Maori/Asian/Other Ethnicity,3,WGN
+Wellington,Maori/MELAA,45,WGN
+Wellington,Maori/MELAA/Other Ethnicity,3,WGN
+Wellington,Maori/Other Ethnicity,96,WGN
+Wellington,Maori/Pacific Peoples,2685,WGN
+Wellington,Maori/Pacific Peoples/Asian,87,WGN
+Wellington,Maori/Pacific Peoples/MELAA,9,WGN
+Wellington,MELAA,5412,WGN
+Wellington,MELAA/Other Ethnicity,51,WGN
+Wellington,Not Elsewhere Included,22758,WGN
+Wellington,Other,6687,WGN
+Wellington,Pacific Peoples,23127,WGN
+Wellington,Pacific Peoples/Asian,540,WGN
+Wellington,Pacific Peoples/European/Asian,321,WGN
+Wellington,Pacific Peoples/European/MELAA,27,WGN
+Wellington,Pacific Peoples/European/Other Ethnicity,21,WGN
+Wellington,Pacific Peoples/Maori/Other Ethnicity,12,WGN
+Wellington,Pacific Peoples/MELAA,42,WGN
+Wellington,Pacific Peoples/Other Ethnicity,90,WGN
+Tasman,Asian,675,TAS
+Tasman,Asian/European/Other Ethnicity,3,TAS
+Tasman,Asian/MELAA,3,TAS
+Tasman,Asian/Other Ethnicity,12,TAS
+Tasman,European,39513,TAS
+Tasman,European/Asian,123,TAS
+Tasman,European/Maori,2145,TAS
+Tasman,European/Maori/Asian,24,TAS
+Tasman,European/Maori/Other Ethnicity,6,TAS
+Tasman,European/Maori/Pacific Peoples,69,TAS
+Tasman,European/MELAA,27,TAS
+Tasman,European/Other Ethnicity,57,TAS
+Tasman,European/Pacific Peoples,183,TAS
+Tasman,Four ethnic groups,9,TAS
+Tasman,Maori,1122,TAS
+Tasman,Maori/Asian,12,TAS
+Tasman,Maori/Other Ethnicity,3,TAS
+Tasman,Maori/Pacific Peoples,33,TAS
+Tasman,MELAA,99,TAS
+Tasman,Not Elsewhere Included,1845,TAS
+Tasman,Other,990,TAS
+Tasman,Pacific Peoples,156,TAS
+Tasman,Pacific Peoples/Asian,6,TAS
+Tasman,Pacific Peoples/European/Asian,6,TAS
+Tasman,Pacific Peoples/European/MELAA,3,TAS
+Nelson,Asian,1710,NSN
+Nelson,Asian/MELAA,6,NSN
+Nelson,Asian/MELAA/European,3,NSN
+Nelson,Asian/Other Ethnicity,3,NSN
+Nelson,European,36666,NSN
+Nelson,European/Asian,192,NSN
+Nelson,European/Maori,2379,NSN
+Nelson,European/Maori/Asian,18,NSN
+Nelson,European/Maori/MELAA,6,NSN
+Nelson,European/Maori/Other Ethnicity,21,NSN
+Nelson,European/Maori/Pacific Peoples,96,NSN
+Nelson,European/MELAA,51,NSN
+Nelson,European/Other Ethnicity,93,NSN
+Nelson,European/Pacific Peoples,213,NSN
+Nelson,Five ethnic groups,3,NSN
+Nelson,Four ethnic groups,12,NSN
+Nelson,Maori,1575,NSN
+Nelson,Maori/Asian,6,NSN
+Nelson,Maori/Other Ethnicity,9,NSN
+Nelson,Maori/Pacific Peoples,48,NSN
+Nelson,Maori/Pacific Peoples/MELAA,3,NSN
+Nelson,MELAA,138,NSN
+Nelson,MELAA/Other Ethnicity,6,NSN
+Nelson,Not Elsewhere Included,1959,NSN
+Nelson,Other,831,NSN
+Nelson,Pacific Peoples,399,NSN
+Nelson,Pacific Peoples/Asian,12,NSN
+Nelson,Pacific Peoples/European/Asian,9,NSN
+Marlborough,Asian,975,MHB
+Marlborough,Asian/MELAA/European,3,MHB
+Marlborough,Asian/Other Ethnicity,9,MHB
+Marlborough,European,33576,MHB
+Marlborough,European/Asian,117,MHB
+Marlborough,European/Maori,2841,MHB
+Marlborough,European/Maori/Asian,33,MHB
+Marlborough,European/Maori/MELAA,3,MHB
+Marlborough,European/Maori/Other Ethnicity,36,MHB
+Marlborough,European/Maori/Pacific Peoples,105,MHB
+Marlborough,European/MELAA,27,MHB
+Marlborough,European/MELAA/Other Ethnicity,3,MHB
+Marlborough,European/Other Ethnicity,69,MHB
+Marlborough,European/Pacific Peoples,201,MHB
+Marlborough,Four ethnic groups,3,MHB
+Marlborough,Maori,1692,MHB
+Marlborough,Maori/Asian,15,MHB
+Marlborough,Maori/Other Ethnicity,12,MHB
+Marlborough,Maori/Pacific Peoples,54,MHB
+Marlborough,MELAA,204,MHB
+Marlborough,MELAA/Other Ethnicity,6,MHB
+Marlborough,Not Elsewhere Included,1899,MHB
+Marlborough,Other,906,MHB
+Marlborough,Pacific Peoples,588,MHB
+Marlborough,Pacific Peoples/Asian,6,MHB
+Marlborough,Pacific Peoples/Other Ethnicity,6,MHB
+West Coast,Asian,579,WTC
+West Coast,European,25101,WTC
+West Coast,European/Asian,69,WTC
+West Coast,European/Maori,2031,WTC
+West Coast,European/Maori/Asian,9,WTC
+West Coast,European/Maori/Other Ethnicity,6,WTC
+West Coast,European/Maori/Pacific Peoples,48,WTC
+West Coast,European/MELAA,12,WTC
+West Coast,European/Other Ethnicity,63,WTC
+West Coast,European/Pacific Peoples,93,WTC
+West Coast,Four ethnic groups,6,WTC
+West Coast,Maori,1053,WTC
+West Coast,Maori/Asian,3,WTC
+West Coast,Maori/Other Ethnicity,6,WTC
+West Coast,Maori/Pacific Peoples,6,WTC
+West Coast,Maori/Pacific Peoples/Asian,6,WTC
+West Coast,MELAA,99,WTC
+West Coast,Not Elsewhere Included,2052,WTC
+West Coast,Other,762,WTC
+West Coast,Pacific Peoples,114,WTC
+West Coast,Pacific Peoples/Asian,3,WTC
+West Coast,Pacific Peoples/MELAA,3,WTC
+West Coast,Pacific Peoples/Other Ethnicity,3,WTC
+Canterbury,Asian,32064,CAN
+Canterbury,Asian/European/Other Ethnicity,24,CAN
+Canterbury,Asian/MELAA,36,CAN
+Canterbury,Asian/MELAA/European,18,CAN
+Canterbury,Asian/MELAA/Other Ethnicity,3,CAN
+Canterbury,Asian/Other Ethnicity,111,CAN
+Canterbury,Asian/Pacific Peoples/Other Ethnicity,3,CAN
+Canterbury,European,414978,CAN
+Canterbury,European/Asian,2559,CAN
+Canterbury,European/Maori,24684,CAN
+Canterbury,European/Maori/Asian,429,CAN
+Canterbury,European/Maori/MELAA,93,CAN
+Canterbury,European/Maori/Other Ethnicity,150,CAN
+Canterbury,European/Maori/Pacific Peoples,1257,CAN
+Canterbury,European/MELAA,513,CAN
+Canterbury,European/MELAA/Other Ethnicity,24,CAN
+Canterbury,European/Other Ethnicity,744,CAN
+Canterbury,European/Pacific Peoples,2877,CAN
+Canterbury,Five ethnic groups,9,CAN
+Canterbury,Four ethnic groups,111,CAN
+Canterbury,Maori,14328,CAN
+Canterbury,Maori/Asian,135,CAN
+Canterbury,Maori/MELAA,18,CAN
+Canterbury,Maori/Other Ethnicity,72,CAN
+Canterbury,Maori/Pacific Peoples,621,CAN
+Canterbury,Maori/Pacific Peoples/Asian,18,CAN
+Canterbury,MELAA,3609,CAN
+Canterbury,MELAA/Other Ethnicity,33,CAN
+Canterbury,Not Elsewhere Included,23076,CAN
+Canterbury,Other,9036,CAN
+Canterbury,Pacific Peoples,7413,CAN
+Canterbury,Pacific Peoples/Asian,162,CAN
+Canterbury,Pacific Peoples/European/Asian,174,CAN
+Canterbury,Pacific Peoples/European/MELAA,15,CAN
+Canterbury,Pacific Peoples/European/Other Ethnicity,9,CAN
+Canterbury,Pacific Peoples/MELAA,6,CAN
+Canterbury,Pacific Peoples/Other Ethnicity,27,CAN
+Otago,Asian,8706,OTA
+Otago,Asian/European/Other Ethnicity,6,OTA
+Otago,Asian/MELAA,12,OTA
+Otago,Asian/MELAA/European,3,OTA
+Otago,Asian/Other Ethnicity,27,OTA
+Otago,European,159102,OTA
+Otago,European/Asian,972,OTA
+Otago,European/Maori,9189,OTA
+Otago,European/Maori/Asian,111,OTA
+Otago,European/Maori/MELAA,36,OTA
+Otago,European/Maori/Other Ethnicity,39,OTA
+Otago,European/Maori/Pacific Peoples,378,OTA
+Otago,European/MELAA,204,OTA
+Otago,European/MELAA/Other Ethnicity,3,OTA
+Otago,European/Other Ethnicity,276,OTA
+Otago,European/Pacific Peoples,1167,OTA
+Otago,Four ethnic groups,33,OTA
+Otago,Maori,4383,OTA
+Otago,Maori/Asian,27,OTA
+Otago,Maori/MELAA,6,OTA
+Otago,Maori/Other Ethnicity,27,OTA
+Otago,Maori/Pacific Peoples,135,OTA
+Otago,MELAA,1740,OTA
+Otago,MELAA/Other Ethnicity,3,OTA
+Otago,Not Elsewhere Included,9870,OTA
+Otago,Other,3747,OTA
+Otago,Pacific Peoples,2037,OTA
+Otago,Pacific Peoples/Asian,69,OTA
+Otago,Pacific Peoples/European/Asian,63,OTA
+Otago,Pacific Peoples/European/MELAA,3,OTA
+Otago,Pacific Peoples/MELAA,6,OTA
+Otago,Pacific Peoples/Other Ethnicity,9,OTA
+Southland,Asian,2463,STL
+Southland,Asian/MELAA,3,STL
+Southland,Asian/Other Ethnicity,6,STL
+Southland,European,71613,STL
+Southland,European/Asian,207,STL
+Southland,European/Maori,6705,STL
+Southland,European/Maori/Asian,87,STL
+Southland,European/Maori/MELAA,12,STL
+Southland,European/Maori/Other Ethnicity,54,STL
+Southland,European/Maori/Pacific Peoples,297,STL
+Southland,European/MELAA,30,STL
+Southland,European/Other Ethnicity,111,STL
+Southland,European/Pacific Peoples,564,STL
+Southland,Five ethnic groups,6,STL
+Southland,Four ethnic groups,36,STL
+Southland,Maori,4284,STL
+Southland,Maori/Asian,18,STL
+Southland,Maori/Other Ethnicity,21,STL
+Southland,Maori/Pacific Peoples,120,STL
+Southland,MELAA,264,STL
+Southland,MELAA/Other Ethnicity,3,STL
+Southland,Not Elsewhere Included,3714,STL
+Southland,Other,1818,STL
+Southland,Pacific Peoples,873,STL
+Southland,Pacific Peoples/Asian,12,STL
+Southland,Pacific Peoples/European/Asian,6,STL
+Southland,Pacific Peoples/MELAA,3,STL
+Southland,Pacific Peoples/Other Ethnicity,3,STL
+Area Outside,European,138,OUT
+Area Outside,European/Maori,174,OUT
+Area Outside,Maori,33,OUT
